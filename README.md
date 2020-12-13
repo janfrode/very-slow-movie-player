@@ -26,6 +26,9 @@ the MMM-BackgroundSlideshow config to it:
 				    },
 ```
 
+Since my screen is in portrait mode 800x1280, I cropped out this from the center of 
+the image -- keeping aspect ratio. Hopefully the central part contains the important bits. 
+
 This kind of worked -- but was very flickering between each frame. Next I modified 
 generate.py script to use pygame to display each frame in fullscreen using "pygame".
 This was done using the vsmp.py script.
